@@ -24,6 +24,7 @@ html{
 /*========= Ajustes card a tamaño pantalla, color textos, color body=========*/
 }
 .container{
+    display: grid;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -32,6 +33,9 @@ html{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+}
+.text{
+    columns: auto 12em;
 }
 .text-center_text-white{
     margin-top: 30px;
@@ -63,7 +67,7 @@ h5{
     margin-right: 100px;
 }
 
-.container_3{
+.container_2{
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -80,28 +84,27 @@ p{
 h2{
     text-align: center;
     color: #fff;
-   
-   
 }
 hr{
     color: #fff;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-bottom: 50px;
 
+}
+.container_3{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .mb-3{
     color:#fff;
 }
 
 body {
-    background-color : #00070f;}
+    background-color : #00070f;
+}
 /*========= Ajustes formulario=========*/
 .formulario{
     background-color: #00070f;
     margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 100px;
 }
 /*========= Ajustes footer=========*/
@@ -146,7 +149,6 @@ footer a {
 }
 body{
  font-family: var(--body-font);
- 
 }
 
 
@@ -158,7 +160,6 @@ body{
 .social_content{
     display: inline-block;
 }
-    
 
 .social{
     height: 100%;
